@@ -1,0 +1,24 @@
+PODS:
+  - HCVimeoVideoExtractor (0.0.1)
+  - PKHUD (5.3.0)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - HCVimeoVideoExtractor
+  - PKHUD
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HCVimeoVideoExtractor
+    - PKHUD
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  HCVimeoVideoExtractor: d3c251280f7027ffd324266e1930b3618e0adb46
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 2845195e509f9dfa4687d4d75de01b4622c6172e
+
+COCOAPODS: 1.6.1

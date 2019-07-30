@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47B30B0A224D14E000837F0A /* UniversalPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B30B03224D14E000837F0A /* UniversalPlayerModel.swift */; };
+		47B30B0B224D14E000837F0A /* UniversalPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B30B04224D14E000837F0A /* UniversalPlayerViewController.swift */; };
+		47B30B0D224D14E000837F0A /* UniversalPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B30B06224D14E000837F0A /* UniversalPlayerBuilder.swift */; };
+		47B30B0E224D14E000837F0A /* UniversalPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B30B08224D14E000837F0A /* UniversalPlayerView.swift */; };
+		47B30B0F224D14E000837F0A /* UniversalPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B30B09224D14E000837F0A /* UniversalPlayerView.xib */; };
+		47B30B11224D173D00837F0A /* youtube_ios_player_helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B30B10224D173D00837F0A /* youtube_ios_player_helper.framework */; };
+		47B30B1E224D272800837F0A /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B30B1D224D272800837F0A /* Defines.swift */; };
+		47B30B20224D2C6A00837F0A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B30B1F224D2C6A00837F0A /* BaseNavigationController.swift */; };
+		47E90809224E5DBF00D89AAC /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E90807224E5DBF00D89AAC /* VideoViewController.xib */; };
+		47E9080A224E5DBF00D89AAC /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E90808224E5DBF00D89AAC /* VideoViewController.swift */; };
+		47EDD6C2224B7531001C9B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDD6C1224B7531001C9B05 /* AppDelegate.swift */; };
+		47EDD6C9224B7534001C9B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EDD6C8224B7534001C9B05 /* Assets.xcassets */; };
+		47EDD6CC224B7534001C9B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EDD6CA224B7534001C9B05 /* LaunchScreen.storyboard */; };
+		47EDD6D8224B918F001C9B05 /* HCVimeoVideoExtractor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EDD6D7224B918F001C9B05 /* HCVimeoVideoExtractor.framework */; };
+		47EDD6DC224BC7B6001C9B05 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDD6DA224BC7B5001C9B05 /* VideoPlayer.swift */; };
+		47EDD6DD224BC7B6001C9B05 /* VideoPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47EDD6DB224BC7B5001C9B05 /* VideoPlayer.xib */; };
+		47EDD6E4224BD971001C9B05 /* UIView+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDD6E3224BD971001C9B05 /* UIView+Common.swift */; };
+		47F108EA22F07E440051C63A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F108E922F07E440051C63A /* BaseViewController.swift */; };
+		47F108ED22F0815E0051C63A /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F108EC22F0815E0051C63A /* VideoManager.swift */; };
+		E80743EEC2A511A34032B3E1 /* Pods_vimeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AAA7245F45336E0DDC1098 /* Pods_vimeo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47B30B03224D14E000837F0A /* UniversalPlayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalPlayerModel.swift; sourceTree = "<group>"; };
+		47B30B04224D14E000837F0A /* UniversalPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalPlayerViewController.swift; sourceTree = "<group>"; };
+		47B30B06224D14E000837F0A /* UniversalPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalPlayerBuilder.swift; sourceTree = "<group>"; };
+		47B30B08224D14E000837F0A /* UniversalPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalPlayerView.swift; sourceTree = "<group>"; };
+		47B30B09224D14E000837F0A /* UniversalPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniversalPlayerView.xib; sourceTree = "<group>"; };
+		47B30B10224D173D00837F0A /* youtube_ios_player_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = youtube_ios_player_helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B30B1D224D272800837F0A /* Defines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		47B30B1F224D2C6A00837F0A /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		47E90807224E5DBF00D89AAC /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
+		47E90808224E5DBF00D89AAC /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		47EDD6BE224B7531001C9B05 /* vimeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vimeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EDD6C1224B7531001C9B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47EDD6C8224B7534001C9B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47EDD6CB224B7534001C9B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47EDD6CD224B7534001C9B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EDD6D3224B799F001C9B05 /* PlayerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PlayerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EDD6D5224B8B1B001C9B05 /* VimeoNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VimeoNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EDD6D7224B918F001C9B05 /* HCVimeoVideoExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HCVimeoVideoExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EDD6DA224BC7B5001C9B05 /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		47EDD6DB224BC7B5001C9B05 /* VideoPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPlayer.xib; sourceTree = "<group>"; };
+		47EDD6E3224BD971001C9B05 /* UIView+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Common.swift"; sourceTree = "<group>"; };
+		47F108E922F07E440051C63A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		47F108EC22F0815E0051C63A /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
+		B4AAA7245F45336E0DDC1098 /* Pods_vimeo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vimeo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB94F8EE59B5530DED0B052D /* Pods-vimeo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vimeo.release.xcconfig"; path = "Pods/Target Support Files/Pods-vimeo/Pods-vimeo.release.xcconfig"; sourceTree = "<group>"; };
+		CEEE99BB79A89C33AAE5A23C /* Pods-vimeo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vimeo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vimeo/Pods-vimeo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47EDD6BB224B7531001C9B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B30B11224D173D00837F0A /* youtube_ios_player_helper.framework in Frameworks */,
+				47EDD6D8224B918F001C9B05 /* HCVimeoVideoExtractor.framework in Frameworks */,
+				E80743EEC2A511A34032B3E1 /* Pods_vimeo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CF11487E2AE51BE1CF1763E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47B30B10224D173D00837F0A /* youtube_ios_player_helper.framework */,
+				47EDD6D7224B918F001C9B05 /* HCVimeoVideoExtractor.framework */,
+				47EDD6D5224B8B1B001C9B05 /* VimeoNetworking.framework */,
+				47EDD6D3224B799F001C9B05 /* PlayerKit.framework */,
+				B4AAA7245F45336E0DDC1098 /* Pods_vimeo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47B30AFE224D149200837F0A /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				47EDD6E3224BD971001C9B05 /* UIView+Common.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		47B30AFF224D14A800837F0A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				47B30B14224D1AE900837F0A /* Base */,
+				47B30B02224D14E000837F0A /* UniversalPlayer */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		47B30B02224D14E000837F0A /* UniversalPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				47B30B03224D14E000837F0A /* UniversalPlayerModel.swift */,
+				47B30B04224D14E000837F0A /* UniversalPlayerViewController.swift */,
+				47B30B06224D14E000837F0A /* UniversalPlayerBuilder.swift */,
+				47B30B07224D14E000837F0A /* View */,
+			);
+			path = UniversalPlayer;
+			sourceTree = "<group>";
+		};
+		47B30B07224D14E000837F0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47B30B08224D14E000837F0A /* UniversalPlayerView.swift */,
+				47B30B09224D14E000837F0A /* UniversalPlayerView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47B30B14224D1AE900837F0A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				47B30B1F224D2C6A00837F0A /* BaseNavigationController.swift */,
+				47F108E922F07E440051C63A /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		47EDD6B5224B7531001C9B05 = {
+			isa = PBXGroup;
+			children = (
+				47EDD6C0224B7531001C9B05 /* vimeo */,
+				47EDD6BF224B7531001C9B05 /* Products */,
+				CF0BCAE4E38BD57A8EF3CA4F /* Pods */,
+				2CF11487E2AE51BE1CF1763E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47EDD6BF224B7531001C9B05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47EDD6BE224B7531001C9B05 /* vimeo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47EDD6C0224B7531001C9B05 /* vimeo */ = {
+			isa = PBXGroup;
+			children = (
+				47F108EB22F081500051C63A /* Managers */,
+				47B30B1D224D272800837F0A /* Defines.swift */,
+				47B30AFE224D149200837F0A /* CommonUI */,
+				47EDD6DE224BD5CB001C9B05 /* VideoViewController */,
+				47EDD6D9224BC7B5001C9B05 /* VideoPlayer */,
+				47B30AFF224D14A800837F0A /* Modules */,
+				47EDD6C1224B7531001C9B05 /* AppDelegate.swift */,
+				47EDD6C8224B7534001C9B05 /* Assets.xcassets */,
+				47EDD6CA224B7534001C9B05 /* LaunchScreen.storyboard */,
+				47EDD6CD224B7534001C9B05 /* Info.plist */,
+			);
+			path = vimeo;
+			sourceTree = "<group>";
+		};
+		47EDD6D9224BC7B5001C9B05 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				47EDD6DA224BC7B5001C9B05 /* VideoPlayer.swift */,
+				47EDD6DB224BC7B5001C9B05 /* VideoPlayer.xib */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		47EDD6DE224BD5CB001C9B05 /* VideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				47E90808224E5DBF00D89AAC /* VideoViewController.swift */,
+				47E90807224E5DBF00D89AAC /* VideoViewController.xib */,
+			);
+			path = VideoViewController;
+			sourceTree = "<group>";
+		};
+		47F108EB22F081500051C63A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				47F108EC22F0815E0051C63A /* VideoManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CF0BCAE4E38BD57A8EF3CA4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE99BB79A89C33AAE5A23C /* Pods-vimeo.debug.xcconfig */,
+				BB94F8EE59B5530DED0B052D /* Pods-vimeo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47EDD6BD224B7531001C9B05 /* vimeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EDD6D0224B7534001C9B05 /* Build configuration list for PBXNativeTarget "vimeo" */;
+			buildPhases = (
+				DDBBA4DEB6E701128E22C81B /* [CP] Check Pods Manifest.lock */,
+				47EDD6BA224B7531001C9B05 /* Sources */,
+				47EDD6BB224B7531001C9B05 /* Frameworks */,
+				47EDD6BC224B7531001C9B05 /* Resources */,
+				4B5A7799BE9D85F2256920FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vimeo;
+			productName = vimeo;
+			productReference = 47EDD6BE224B7531001C9B05 /* vimeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47EDD6B6224B7531001C9B05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andrii Momot";
+				TargetAttributes = {
+					47EDD6BD224B7531001C9B05 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 47EDD6B9224B7531001C9B05 /* Build configuration list for PBXProject "vimeo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47EDD6B5224B7531001C9B05;
+			productRefGroup = 47EDD6BF224B7531001C9B05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47EDD6BD224B7531001C9B05 /* vimeo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47EDD6BC224B7531001C9B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EDD6DD224BC7B6001C9B05 /* VideoPlayer.xib in Resources */,
+				47EDD6CC224B7534001C9B05 /* LaunchScreen.storyboard in Resources */,
+				47E90809224E5DBF00D89AAC /* VideoViewController.xib in Resources */,
+				47EDD6C9224B7534001C9B05 /* Assets.xcassets in Resources */,
+				47B30B0F224D14E000837F0A /* UniversalPlayerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B5A7799BE9D85F2256920FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vimeo/Pods-vimeo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HCVimeoVideoExtractor/HCVimeoVideoExtractor.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCVimeoVideoExtractor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vimeo/Pods-vimeo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBBA4DEB6E701128E22C81B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vimeo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47EDD6BA224B7531001C9B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B30B20224D2C6A00837F0A /* BaseNavigationController.swift in Sources */,
+				47B30B0B224D14E000837F0A /* UniversalPlayerViewController.swift in Sources */,
+				47B30B1E224D272800837F0A /* Defines.swift in Sources */,
+				47E9080A224E5DBF00D89AAC /* VideoViewController.swift in Sources */,
+				47F108ED22F0815E0051C63A /* VideoManager.swift in Sources */,
+				47F108EA22F07E440051C63A /* BaseViewController.swift in Sources */,
+				47EDD6C2224B7531001C9B05 /* AppDelegate.swift in Sources */,
+				47B30B0D224D14E000837F0A /* UniversalPlayerBuilder.swift in Sources */,
+				47B30B0A224D14E000837F0A /* UniversalPlayerModel.swift in Sources */,
+				47EDD6E4224BD971001C9B05 /* UIView+Common.swift in Sources */,
+				47EDD6DC224BC7B6001C9B05 /* VideoPlayer.swift in Sources */,
+				47B30B0E224D14E000837F0A /* UniversalPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47EDD6CA224B7534001C9B05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EDD6CB224B7534001C9B05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47EDD6CE224B7534001C9B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47EDD6CF224B7534001C9B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47EDD6D1224B7534001C9B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEE99BB79A89C33AAE5A23C /* Pods-vimeo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = vimeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andriimomot.vimeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47EDD6D2224B7534001C9B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB94F8EE59B5530DED0B052D /* Pods-vimeo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = vimeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andriimomot.vimeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47EDD6B9224B7531001C9B05 /* Build configuration list for PBXProject "vimeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EDD6CE224B7534001C9B05 /* Debug */,
+				47EDD6CF224B7534001C9B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EDD6D0224B7534001C9B05 /* Build configuration list for PBXNativeTarget "vimeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EDD6D1224B7534001C9B05 /* Debug */,
+				47EDD6D2224B7534001C9B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47EDD6B6224B7531001C9B05 /* Project object */;
+}

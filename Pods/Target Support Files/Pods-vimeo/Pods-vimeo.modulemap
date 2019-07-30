@@ -1,0 +1,6 @@
+framework module Pods_vimeo {
+  umbrella header "Pods-vimeo-umbrella.h"
+
+  export *
+  module * { export * }
+}
